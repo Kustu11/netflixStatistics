@@ -1,5 +1,7 @@
 import tmdbsimple as tm #Imports module
-tm.API_KEY = '3e889fcfd527ae4c53b41103baebb8fc' # Needed for 
+
+### ENTER YOUR OWN TMDB API KEY HERE ###
+tm.API_KEY = '' # Needed for authentication
 search = tm.Search()
 
 def tmdbMovie(film, types): #Movie check from TMDb
